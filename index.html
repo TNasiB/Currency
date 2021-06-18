@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency translater | TNasiB</title>
+    <link rel="stylesheet" href="sass/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="currency-aplication">
+        <h1 class="title">
+            Конвертер валют
+        </h1>
+        <div class="courses">
+            <div class="usd gray course">
+                <h3 class="usd__title">
+                    Курс USD
+                </h3>
+                <p class="usd__value value">73.77</p>
+            </div>
+            <div class="eur gray course">
+                <h3 class="eur__title">
+                    Курс EUR
+                </h3>
+                <p class="eur__value value">73.77</p>
+            </div>
+            <div class="gpb gray course">
+                <h3 class="gpb__title">
+                    Курс GPB
+                </h3>
+                <p class="gpb__value value">73.77</p>
+            </div>
+        </div>
+        <div class="panels">
+            <div class="give gray panel">
+                <h3 class="giveTitle">Отдаю:</h3>
+                <select type="text" class="giveCurrency" disabled>
+                    <option value="RUB">RUB - Рубли</option>
+                </select>
+                <input type="number" class="giveValue">
+            </div>
+            <div class="receive gray panel">
+                <h3 class="receiveTitle">Получаю:</h3>
+                <select type="text" class="receiveCurrency">
+                    <option value="USD">USD - Доллары</option>
+                    <option value="EUR">EUR - Евро</option>
+                    <option value="GBP">GPB - Фунты Стерлингов</option>
+                </select>
+                <input type="number" class="receiveValue">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+*
+    box-sizing: border-box
+h1, h3
+    margin: 0
+body
+    background-color: #FAF3F3
+    font-family: 'Roboto', sans-serif
+
+.currency-aplication
+    background-color: #DA7F8F
+    width: 900px
+    height: 500px
+    margin: 0 auto
+    border-radius: 20px
+    box-shadow: 14px 13px 20px 4px rgba(0, 0, 0, 0.25)
+    padding: 25px 20px 20px 20px
+    margin-top: 100px
+
+.title
+    font-size: 48px
+    font-weight: 700
+    color: #faf3f3
+    text-shadow: #000 1px 1px 0, #000 -1px -1px 0, #000 -1px 1px 0, #000 1px -1px 0
+
+.gray
+    background-color: #A7BBC7
+    border-radius: 20px
+.courses
+    display: flex
+    justify-content: space-between
+    margin-top: 30px
+    margin-bottom: 20px
+.course
+    width: 274px
+    height: 146px
+    padding: 20px 0 0 20px
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25)
+.panels
+    display: flex
+    justify-content: space-between
+.panel
+    width: 420px
+    height: 200px
+    padding: 15px 20px 30px 20px
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25)
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+.value
+    font-size: 64px
+    line-height: 75px
+    margin: 0
+    color: #FAF3F3
+    text-shadow: #000 1px 1px 0, #000 -1px -1px 0, #000 -1px 1px 0, #000 1px -1px 0
+.usd__title, .eur__title, .gpb__title, .giveTitle, .receiveTitle
+    font-size: 24px
+input, select
+    padding: 13px
+    outline: none
+    border: none
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25)
+    border-radius: 5px
+    font-size: 24px
+    font-weight: 700
+.top
+    position: relative
+    &::after
+        position: absolute
+        content: ''
+        height: 50px
+        width: 50px
+        background-image: url(../image/up.png)
+        background-size: cover
+        right: 20px
+        top: 11px
+.bottom
+    position: relative
+    &::after
+        position: absolute
+        content: ''
+        height: 40px
+        width: 40px
+        background-image: url(../image/up.png)
+        background-size: cover
+        right: 15px
+        top: 11px
+        transform: rotate(180deg)
